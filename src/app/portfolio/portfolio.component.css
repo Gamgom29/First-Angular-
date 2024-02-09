@@ -1,0 +1,31 @@
+.line {
+    width: 80px;
+    height: 4px;
+    background-color: #2C3E50;
+}
+i {
+    color: #2C3E50;
+}
+h2 {
+    color: #2C3E50;
+}
+.layer {
+    background-color:#1ABC9C ;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.layer:hover {
+    opacity: 0.8;
+}
+.layer-icon {
+    font-size: 60px;
+    color: #fff;
+    
+}
+.model {
+    z-index: 999;
+}
+.model img {
+    width: 600px;
+}

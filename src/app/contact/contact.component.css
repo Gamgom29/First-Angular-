@@ -1,0 +1,27 @@
+
+.line {
+    width: 80px;
+    height: 4px;
+    background-color: #2C3E50;
+}
+h2 {
+    color: #2C3E50;
+}
+input:focus{
+    box-shadow: none;
+}
+.btn-bg {
+    background-color: #1ABC9C;
+}
+.btn-bg:focus {
+    background-color: #1ABC9C;
+}
+label {
+    color: #1ABC9C;
+}
+.top {
+    top: 50px !important;
+}
+label {
+    transition: 0.7s top;
+}

@@ -1,0 +1,28 @@
+<div class="contact container">
+    <div>
+    <h2 class="text-center fs-1 fw-bolder pt-5"> CONTACT SECTION</h2>
+    <div class="mt-3 d-flex align-items-center justify-content-center">
+        <div class="line me-3"></div>
+        <i class="fas fa-star me-3"></i>
+        <div class="line"></div>
+    </div>
+    </div>
+    <div class="mx-auto mt-4 p-4 w-50 ">
+        <label for="username" [ngClass]=" nameIn =='' ? 'top':'' " class="position-relative top-0 ">UserName:</label>
+
+        <input [(ngModel)]="nameIn" id="username" type="text" class="position-relative form-control mt-2 border-0 border-bottom py-3 position-relative" placeholder="UserName">
+        
+        <label [ngClass]=" ageIn =='' ? 'top':'' " for="userage" class="position-relative top-0 ">UserAge:</label>
+        
+        <input [(ngModel)]="ageIn" id="userage" type="text" class="position-relative form-control mt-2 py-3 border-0 border-bottom" placeholder="UserAge">
+        
+        <label [ngClass]=" emailIn =='' ? 'top':'' " for="useremail" class="position-relative top-0 ">UserEmail:</label>
+        
+        <input [(ngModel)]="emailIn" id="useremail" type="email" class="position-relative form-control mt-2 py-3 border-0 border-bottom" placeholder="UserEmail">
+        
+        <label [ngClass]=" passIn =='' ? 'top':'' " for="userpass" class="position-relative top-0">UserPassword:</label>
+        
+        <input [(ngModel)]="passIn" id="userpass" type="password" class=" position-relative form-control mt-2 py-3 border-0 border-bottom" placeholder="UserPassword">
+        <button class="btn text-white px-3 btn-bg mt-4">Send Message</button>
+    </div>
+</div>
